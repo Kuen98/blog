@@ -1,0 +1,4 @@
+[submodule "harrykuenblog/public"]
+	path = harrykuenblog/public
+	url = https://github.com/Kuen98/Kuen98.github.io.git
+	branch = main

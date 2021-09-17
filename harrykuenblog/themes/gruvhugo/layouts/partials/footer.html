@@ -1,0 +1,15 @@
+<footer id="footer">
+    <strong>{{- with .Site.Params.social }}</strong>
+    <div class="social">
+        {{ partial "social.html" . }}
+    </div><strong>{{- end }}</strong>
+    <div>
+        <span>
+            Powered by <a style="color: #ff4088; border: 0;" href="https://gohugo.io">Hugo</a> and
+        </span>
+        <span>
+            <a href="https://gitlab.com/avron/gruvhugo">gruvhugo</a>
+        </span>
+    </div>
+    <p>{{ .Site.Params.main.copyright | safeHTML }}</p>
+</footer>
